@@ -1,0 +1,8 @@
+{
+  "cmake.configureArgs": [
+    "-DENABLE_TESTING=FALSE"
+  ],
+  "files.associations": {
+    "gklib.h": "c"
+  }
+}
