@@ -15,3 +15,6 @@ if (ENABLE_TESTING)
   enable_testing()
   add_subdirectory(tests)
 endif()
+
+install(TARGETS GKlib DESTINATION lib)                                           
+install(FILES ${headers} DESTINATION include) 
